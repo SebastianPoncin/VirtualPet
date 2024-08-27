@@ -3,9 +3,9 @@ void setup() {
 }
 
 void draw() {
-  noStroke();
-  fill(200, 200, 200); // background color
-  rect(0, 0, 480, 480);
+  //noStroke();
+  //fill(200, 200, 200); // background color
+  //rect(0, 0, 480, 480);
 
   fill(80, 150, 50); // dragon green
 
