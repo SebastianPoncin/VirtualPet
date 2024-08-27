@@ -10,7 +10,7 @@ void draw() {
   fill(80, 150, 50); // dragon green
 
   // head
-  circle(100, 100, 40);
+  ellipse(100, 100, 40, 40);
   rect(100, 85, 80, 35);
   ellipse(180, 100, 40, 80);
 
