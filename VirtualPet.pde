@@ -3,7 +3,7 @@ void setup() {
 }
 
 void draw() {
-  //noStroke();
+  noStroke();
   //fill(200, 200, 200); // background color
   //rect(0, 0, 480, 480);
 
