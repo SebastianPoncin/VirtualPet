@@ -34,13 +34,19 @@ void draw() {
   rect(380, 200, 200, 200);
   fill(80, 150, 50); // dragon green
   ellipse(380, 284.5, 20, 11);
-  
   fill(180, 160, 130); // belly yellow
   arc(160, 230, 100, 100, PI/2, PI*1.5);
   ellipse(160, 220, 70, 120);
   arc(160, 230, 100, 140, PI, PI*1.5);
+  noFill();
+  stroke(0);
+  bezier(130, 175, 120, 195, 170, 195, 190, 190);
+  bezier(115, 200, 110, 225, 160, 230, 195, 220);
+  bezier(110, 235, 110, 255, 150, 260, 190, 250);
+  noStroke();
   
   //wings
+  /*
   fill(80, 150, 50); // dragon green
   rect(215, 155, 50, 50);
   fill(200);
@@ -48,6 +54,13 @@ void draw() {
   ellipse(260, 155, 40, 20);
   arc(280, 200, 40, 100, PI, PI*1.5);
   arc(190, 220, 180, 70, PI*1.5, PI*2);
+  */
+  
+  //feet
+  fill(80, 150, 50);
+  stroke(0);
+  ellipse(160, 285, 50, 10);
+  
   
   //x,y
   fill(0);
