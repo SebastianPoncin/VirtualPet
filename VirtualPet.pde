@@ -1,13 +1,13 @@
-import processing.serial.*;
-import cc.arduino.*;
-Arduino arduino;
-boolean jumping = false;
+//import processing.serial.*;
+//import cc.arduino.*;
+//Arduino arduino;
+//boolean jumping = false;
 float dragonY = 0;
-float dragonVY = 0;
+//float dragonVY = 0;
 
 void setup() {
   size(480, 400);
-  arduino = new Arduino(this, Arduino.list()[0], 57600); // change [] if not working
+  //arduino = new Arduino(this, Arduino.list()[0], 57600); // change [] if not working
 }
 
 void draw() {
@@ -72,6 +72,7 @@ void draw() {
   text(mouseX + ", " + mouseY, 20, 380);
   
   // dragon jumping
+  /*
   int y = arduino.analogRead(5);
   //System.out.println(y);
   if (y <= 75 && jumping == false) {
@@ -89,6 +90,7 @@ void draw() {
     }
   }
  dragonY -= dragonVY;
+*/
 }
 
 void mouseClicked() {
